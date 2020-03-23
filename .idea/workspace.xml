@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2049ef2d-c1b5-4896-b012-0a910c60592f" name="Default" comment="" />
+    <list default="true" id="2049ef2d-c1b5-4896-b012-0a910c60592f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/adClickCount/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginFailWithCep/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginFailWithCep/src/main/java/com/jd/LoginFailWithCep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginFailWithCep/src/main/java/com/jd/bean/LoginEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginFailWithCep/src/main/java/com/jd/bean/LoginFailWarning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginFailWithCep/src/main/resources/LoginLog.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/adClickCount/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jd/AdClickStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/adClickCount/src/main/java/com/jd/AdClickStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jd/aggregateFuns/AdCountAgg.java" beforeDir="false" afterPath="$PROJECT_DIR$/adClickCount/src/main/java/com/jd/aggregateFuns/AdCountAgg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jd/aggregateFuns/FilterBlackListUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/adClickCount/src/main/java/com/jd/aggregateFuns/FilterBlackListUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jd/bean/AdClickEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/adClickCount/src/main/java/com/jd/bean/AdClickEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jd/bean/BlackListWarning.java" beforeDir="false" afterPath="$PROJECT_DIR$/adClickCount/src/main/java/com/jd/bean/BlackListWarning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jd/bean/CountByProvince.java" beforeDir="false" afterPath="$PROJECT_DIR$/adClickCount/src/main/java/com/jd/bean/CountByProvince.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jd/windowFuns/AdCountResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/adClickCount/src/main/java/com/jd/windowFuns/AdCountResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/adClickCount/src/main/java/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/AdClickLog.csv" beforeDir="false" afterPath="$PROJECT_DIR$/adClickCount/src/main/resources/AdClickLog.csv" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/loginFailWithCep/target/" />
+    <ignored path="$PROJECT_DIR$/adClickCount/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,14 +41,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AdClickStatistics.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/AdClickStatistics.java">
+      <file leaf-file-name="LoginFailWithCep.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/loginFailWithCep/src/main/java/com/jd/LoginFailWithCep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="313">
+              <caret line="84" column="40" lean-forward="true" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
               <folding>
-                <element signature="e#2167#2168#0" expanded="true" />
-                <element signature="e#2228#2229#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2366#2367#0" expanded="true" />
+                <element signature="e#2435#2436#0" expanded="true" />
+                <element signature="e#2546#2558#0" expanded="true" />
+                <element signature="e#2579#2797#0" expanded="true" />
+                <element signature="e#2796#2797#0" expanded="true" />
+                <element signature="e#2818#3036#0" expanded="true" />
+                <element signature="e#3035#3036#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adClickCount/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="AdClickEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adClickCount/src/main/java/com/jd/bean/AdClickEvent.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="LoginFailWarning.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loginFailWithCep/src/main/java/com/jd/bean/LoginFailWarning.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,6 +99,9 @@
       <find>getTime</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -69,6 +123,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jd/bean/BlackListWarning.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jd/aggregateFuns/FilterBlackListUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jd/AdClickStatistics.java" />
+        <option value="$PROJECT_DIR$/loginFailWithCep/pom.xml" />
+        <option value="$PROJECT_DIR$/loginFailWithCep/src/main/java/com/jd/bean/LoginFailWarning.java" />
+        <option value="$PROJECT_DIR$/loginFailWithCep/src/main/java/com/jd/bean/LoginEvent.java" />
+        <option value="$PROJECT_DIR$/loginFailWithCep/src/main/java/com/jd/LoginFailWithCep.java" />
+        <option value="$PROJECT_DIR$/loginFailWithCep/src/main/resources/LoginLog.csv" />
       </list>
     </option>
   </component>
@@ -112,6 +171,9 @@
     <option name="width" value="1792" />
     <option name="height" value="1037" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -129,28 +191,7 @@
             <path>
               <item name="flinkJavaDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="flinkJavaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flinkJavaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flinkJavaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flinkJavaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flinkJavaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flinkJavaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flinkJavaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jd" type="462c0819:PsiDirectoryNode" />
+              <item name="loginFailWithCep" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -168,6 +209,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/adClickCount" />
+      <recent name="$PROJECT_DIR$/loginFailWithCep/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src" />
@@ -185,7 +228,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AdClickStatistics">
+  <component name="RunManager" selected="Application.AdClickStatistics (1)">
+    <configuration name="AdClickStatistics (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jd.AdClickStatistics" />
+      <module name="adClickCount" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="AdClickStatistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jd.AdClickStatistics" />
       <module name="flinkJavaDemo" />
@@ -197,10 +251,16 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FlinkDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FlinkDemo" />
-      <module name="flinkJavaDemo" />
+    <configuration name="LoginFailWithCep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jd.LoginFailWithCep" />
+      <module name="loginFailWithCep" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="StateFunTestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jd.StateFunTestDemo" />
@@ -266,17 +326,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FlinkDemo" />
       <item itemvalue="Application.TagEnum" />
       <item itemvalue="Application.StateFunTestDemo" />
       <item itemvalue="Application.AdClickStatistics" />
+      <item itemvalue="Application.LoginFailWithCep" />
+      <item itemvalue="Application.AdClickStatistics (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdClickStatistics (1)" />
+        <item itemvalue="Application.LoginFailWithCep" />
         <item itemvalue="Application.AdClickStatistics" />
         <item itemvalue="Application.StateFunTestDemo" />
         <item itemvalue="Application.TagEnum" />
-        <item itemvalue="Application.FlinkDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -305,8 +367,8 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32931036" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25244832" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33079433" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32910156" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -367,85 +429,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/TagEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/StateFunTestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/TagEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/StateFunTestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/TagEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/StateFunTestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/TagEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -733,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/aggregateFuns/AdCountAgg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -760,13 +736,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/loginFailWithCep/src/main/java/com/jd/bean/LoginFailWithCep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jd/AdClickStatistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="199">
+          <caret line="33" column="124" selection-start-line="33" selection-start-column="112" selection-end-line="33" selection-end-column="124" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#2167#2168#0" expanded="true" />
             <element signature="e#2228#2229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-cep_2.11/1.8.1/flink-cep_2.11-1.8.1.jar!/org/apache/flink/cep/pattern/Pattern.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginFailWithCep/src/main/resources/LoginLog.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adClickCount/src/main/java/com/jd/bean/AdClickEvent.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adClickCount/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginFailWithCep/src/main/java/com/jd/bean/LoginEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginFailWithCep/src/main/java/com/jd/bean/LoginFailWarning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginFailWithCep/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adClickCount/src/main/java/com/jd/AdClickStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-537">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginFailWithCep/src/main/java/com/jd/LoginFailWithCep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="84" column="40" lean-forward="true" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2435#2436#0" expanded="true" />
+            <element signature="e#2546#2558#0" expanded="true" />
+            <element signature="e#2579#2797#0" expanded="true" />
+            <element signature="e#2796#2797#0" expanded="true" />
+            <element signature="e#2818#3036#0" expanded="true" />
+            <element signature="e#3035#3036#0" expanded="true" />
           </folding>
         </state>
       </provider>
